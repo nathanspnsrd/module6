@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const commentSchema = new Schema({
-  userName: {
+  username: {
     type: Schema.Types.String,
     ref: "User",
     required: true,
@@ -18,7 +18,7 @@ const commentSchema = new Schema({
   },
   issueID: {
     type: Schema.Types.ObjectId,
-    ref: "Isseu",
+    ref: "Issue",
     required: true
   }
 })
