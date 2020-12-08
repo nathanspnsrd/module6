@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.app {
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightgray;
+  height: 3.5vh
+}
+
+
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh
+}
+
+.auth-container > h1 {
+  font-size: 2em;
+  margin: 24px;
+}
+
+.auth-container > p {
+  margin: 16px;
+  text-decoration: underline;
+}
+
+.auth-container > form {
+  border: 1px solid #3339;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #aaa9;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container > form > input {
+  margin: 16px 8px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.auth-container > form > button {
+  margin: 16px 8px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.public {
+  height: 100vh;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile > h1 {
+  margin: 8px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.profile > h3 {
+  margin: 16px 0;
+  text-decoration: underline;
+}
+
+.profile > form {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+  border: 1px solid #3339;
+  background-color: #aaa9;
+  padding: 16px;
+  border-radius: 5px
+}
+
+.profile > form > input,
+.profile > form > button {
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 5px
+}
+
+.issue {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 30vw;
+  margin: 10px
+}
